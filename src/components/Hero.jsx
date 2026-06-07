@@ -19,7 +19,7 @@ export function Hero({ profile }) {
 
       <aside className="hero-panel" aria-label="Profile highlights">
         <div className="portrait" aria-hidden="true">
-          <img src="/og-image.png" alt="" />
+          <img src="/og-image.png" alt="Pathum Rathnayaka - Software Engineer" />
         </div>
         <div>
           <p className="panel-label">Currently</p>
