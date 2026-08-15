@@ -88,6 +88,51 @@ export const projects = [
   },
 ]
 
+export const workHistory = [
+  {
+    role: 'Associate Software Engineer',
+    company: 'Surecore (Pvt) Ltd',
+    companyHref: 'https://www.surecore.co/',
+    logo: 'https://media.licdn.com/dms/image/v2/C510BAQGCwHfh8S-Whw/company-logo_200_200/company-logo_200_200/0/1630593471865/surecore_co_logo?e=1788393600&v=beta&t=Jekr5IXRGs6sfv-6mlo4t_S1UEWFsJBm87P8pgXoeSU',
+    logoText: 'SC',
+    logoColor: 'linear-gradient(135deg, #22d3ee, #6366f1)',
+    employmentType: 'Full-time',
+    duration: 'Jun 2026 - Present · 3 mos',
+    location: 'Colombo, Western Province, Sri Lanka · Hybrid',
+    description:
+      'Contributing to the design, development, and maintenance of scalable backend systems. Developing secure RESTful APIs, implementing business logic, and optimizing performance.',
+    skills: ['Software Infrastructure', 'Program Creation', 'REST APIs', 'System Design'],
+  },
+  {
+    role: 'Full Stack Engineer',
+    company: 'Cenzios',
+    companyHref: 'https://cenzios.com/',
+    logo: 'https://media.licdn.com/dms/image/v2/D560BAQFfnDEkhFArcA/company-logo_200_200/B56ZeCBoF0HUAM-/0/1750233154670/cenzios_it_solutions_pvt_ltd_logo?e=1788393600&v=beta&t=HlbL0bEblVjZ4iGtlxMl3cerkMKzQYqEJUmtTGGHO5I',
+    logoText: 'CZ',
+    logoColor: 'linear-gradient(135deg, #2563eb, #0ea5e9)',
+    employmentType: 'Internship',
+    duration: 'Nov 2025 - May 2026 · 7 mos',
+    location: 'Remote',
+    description:
+      'Worked as a Full Stack Developer Intern, contributing to the development and maintenance of a scalable multi-tenant SaaS platform built for enterprise business operations. Collaborated with cross-functional teams.',
+    skills: ['Software Infrastructure', 'Web Technologies', 'SaaS Development'],
+  },
+  {
+    role: 'Freelance Developer',
+    company: 'Fiverr',
+    companyHref: null,
+    logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMCP-vyvDXngL3NeN5uJ5fCl1UUCNYACdJoEj8zHOWocmpZwupw0-vx01P&s=10',
+    logoText: 'FR',
+    logoColor: 'linear-gradient(135deg, #1dbf73, #19a463)',
+    employmentType: 'Freelance',
+    duration: 'May 2022 - Jan 2025 · 2 yrs 9 mos',
+    location: 'Remote',
+    description:
+      'Developed custom web solutions, dashboards, and business management systems, fixed production bugs, optimized performance, and integrated payment gateways, authentication providers, and external APIs.',
+    skills: ['Full Stack Development', 'API Integration', 'Client Delivery'],
+  },
+]
+
 export const skills = [
   { name: 'React', icon: 'simple-icons:react' },
   { name: 'Next.js', icon: 'simple-icons:nextdotjs' },

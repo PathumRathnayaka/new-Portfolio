@@ -2,7 +2,7 @@ export function Experience({ experience }) {
   return (
     <section className="section-band" id="experience">
       <div className="section-heading">
-        <p className="section-kicker">Experience</p>
+        <p className="section-kicker">Expertise</p>
         <h2>Engineering strengths that travel across projects.</h2>
       </div>
       <div className="experience-list">

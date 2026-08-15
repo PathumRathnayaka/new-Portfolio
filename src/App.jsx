@@ -7,6 +7,7 @@ import { Hero } from './components/Hero'
 import { Intro } from './components/Intro'
 import { Projects } from './components/Projects'
 import { Skills } from './components/Skills'
+import { WorkHistory } from './components/WorkHistory'
 import {
   experience,
   navItems,
@@ -15,6 +16,7 @@ import {
   skills,
   socialHandle,
   socials,
+  workHistory,
 } from './data/portfolio'
 import './App.css'
 
@@ -79,6 +81,7 @@ function App() {
       <main id="top">
         <Hero profile={profile} />
         <Intro />
+        <WorkHistory items={workHistory} />
         <Projects projects={projects} />
         <Skills skills={skills} />
         <Experience experience={experience} />

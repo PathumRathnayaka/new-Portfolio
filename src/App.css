@@ -463,6 +463,88 @@ main section.in-view {
   font-weight: 700;
 }
 
+.work-history-list {
+  display: grid;
+  border-top: 1px solid var(--line);
+}
+
+.work-history-item {
+  display: grid;
+  grid-template-columns: 56px 1fr;
+  gap: 20px;
+  padding: 28px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.work-history-logo {
+  display: grid;
+  place-items: center;
+  width: 56px;
+  height: 56px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--surface-raised);
+  text-decoration: none;
+}
+
+.work-history-logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.work-history-logo-fallback {
+  display: none;
+  place-items: center;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  font-size: 0.95rem;
+  font-weight: 900;
+  letter-spacing: 0.02em;
+}
+
+.work-history-body h3 {
+  margin: 0 0 4px;
+  color: var(--heading);
+  font-size: 1.2rem;
+}
+
+.work-history-meta a {
+  color: var(--heading);
+  font-weight: 700;
+  text-decoration-color: color-mix(in srgb, var(--accent) 55%, transparent);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+}
+
+.work-history-meta a:hover,
+.work-history-meta a:focus-visible {
+  color: var(--accent-strong);
+}
+
+.work-history-meta,
+.work-history-duration,
+.work-history-location {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.work-history-description {
+  margin: 12px 0 0;
+  max-width: 640px;
+  color: var(--text);
+}
+
+.work-history-skills {
+  margin: 12px 0 0;
+  color: var(--muted);
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
 .experience-list {
   display: grid;
   border-top: 1px solid var(--line);
@@ -698,6 +780,11 @@ main section.in-view {
   .experience-item {
     grid-template-columns: 1fr;
     gap: 10px;
+  }
+
+  .work-history-item {
+    grid-template-columns: 1fr;
+    gap: 12px;
   }
 
   .site-footer {
